@@ -1,0 +1,52 @@
+.card .header{
+    background:linear-gradient(teal,white);
+    font-size: 30px;
+    /* color:white */
+    padding: 10px 0px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+
+.card img{
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+
+
+
+.card .main{
+    /* border: 2px solid black; */
+    /* display: flex; */
+    /* display: block; */
+    flex: start;
+    /* margin-bottom: 5px; */
+    margin-top: 15px;
+    box-shadow: rgba(18, 52, 5, 0.6) 0px 7px 29px 0px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    height: auto;
+    width: 320px;
+    padding: 10px;
+    border-radius: 10px;
+    /* border: 5px solid black; */
+    /* #93A5CF → #E4EfE9 */
+    background:linear-gradient(#93A5CF, #E4EfE9);
+    /* margin: 2px; */
+}
+
+.card .line{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 2%; */
+    
+}
+
+.main .title{
+    margin-top: 5px;
+}
+
+.main .desc{
+    margin-top: 5px;
+}

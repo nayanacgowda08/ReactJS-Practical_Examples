@@ -1,0 +1,112 @@
+if we want to edit smtg, we'll goto app.js(it is under src file)
+server will always search for html file
+npm i
+fragments are used to group the html elements
+
+3 ways to group html elements
+1. using div 
+2. using framents <>
+3. using REact.Fragment
+
+once name is assigned, we cant rename
+
+Reactjs notes
+
+Features of react components
+
+-> can be reusuable to avoid code repeatability
+-> helps us to maintain the code & supports file to incraezse code readability in the project
+->returns the html code
+
+types of components 
+
+-> Class Components
+-> Functional Components
+
+
+Steps to use components:
+
+1. create component(first letter should be capital, filename and component should be same) Extension should be .jsx/.js
+2. write the req code in the components as the req
+3. export the component(export default componentName)
+  NOTE:
+	->Export default funtion Navbar(){...........}
+    import Navbar from './.path'
+    (or)
+    ->Export default funtion Navbar(){...........}
+    import {Navbar} from './.path'
+4. Import the component to reuse again and again(import componentName from component file path)
+5. use componentName as theh tag to render into the UI or webpage
+
+Class Components
+    import react,{component} from 'react'
+    class componentName extends Component{
+        render() {
+            //JS code
+            return{
+                <>
+                HTML code
+                </>
+            }
+        }
+    }
+    export default componentName
+
+Functional Components
+
+    import React from 'react'
+    function ComponentName(){
+        //JS code
+        return{
+                <>
+                HTML code
+                </>
+            }
+    }
+    export default ComponentName
+
+NOTE:
+    -> export component => import ComponentName from .....
+    -> export default Components => import ComponentName from .....
+    (dont need to use () braces)
+
+
+Adding styles to jsx
+
+1. inline CSS
+    -> Styles must be added in the form of objects in the case of inline CSS
+    eg. 
+    <h1 style={{
+        color:red,
+        background:yellow
+    }}
+    >Hello</h1>
+
+    -> if the style objects already hav declared , we can pass the object directly inside the style attribute
+    eg. let myStyle ={
+        color:"red",
+    } 
+    <h1 style={myStyle}>Hello</h1>
+
+External CSS
+
+    -> this files must be imported in the particular jsx file
+    -> craete external css with name (filename.css) extension & import in the component
+    syntax : import './filename.css'
+
+
+Displaying images 
+
+1. inserting image through url(direct from google) and store it in some variable
+
+    let url = '--path of the img ---'
+    eg. <img src={url} />
+
+2. if images are in public folder
+    use relative path(./) toget the img from public folder
+     eg. <img src="./--path--" />
+
+3. insert the images in src folder
+    import iages from src folder(path)
+    import img1 from '--path--'
+    eg. <img src={img1}/>

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    /* padding-left: 10%; */
+    justify-content: center;
+    margin-top: 4%;
+    /* background-color: antiquewhite; */
+    /* border-radius: 5px; */
+    /* height: 200px; */
+}
+
+img{
+    border-radius: 5px;
+    height: 200px; 
+    width: 300px;
+    object-fit: cover;
+    
+}

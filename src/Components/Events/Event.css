@@ -1,0 +1,41 @@
+.events button{
+    font-size: 20px;
+    width: 25%;
+    margin-top: 10px;
+    background-color: rgb(34, 106, 174);
+    padding:10px ;
+    /* font-weight: bold; */
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.events button:hover{
+    color:rgb(34, 106, 174);
+    background-color: white;
+    border: solid 1px blue;
+}
+
+.events .container{
+    display: flex;
+    /* width: 80%; */
+    /* background-color: aqua; */
+    justify-content: space-evenly;
+    align-items: center;
+    /* justify-content: center; */
+    background: linear-gradient(pink, rgba(255, 255, 255, 0.2),gray);
+}
+
+.container div{
+
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.events .container button{
+    width: 10vw;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}

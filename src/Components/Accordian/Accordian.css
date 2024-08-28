@@ -1,0 +1,12 @@
+.main{
+    /* width: 200px; */
+    border: 1px solid black;
+    width: 20vw;
+    margin: auto;
+    /* height: 15vh; */
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px inset rgb(24, 69, 69);
+    background: linear-gradient(to top left, rgb(224, 88, 88) 50%,rgb(224, 224, 231) 50%);
+}

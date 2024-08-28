@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    margin: auto;
+    margin-top: 10px;
+    /* borderCollapse: 'separate', */
+    /* borderSpacing: '0px 4px'  */
+}
+
